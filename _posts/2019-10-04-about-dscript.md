@@ -2,7 +2,6 @@
 layout: post
 title:  "About dscript"
 date:   2019-10-04 14:43:59 -0400
-categories: jekyll update
 ---
 
 # About dscript
