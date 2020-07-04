@@ -4,4 +4,4 @@ title:  "About dscript"
 date:   2019-10-04 14:43:59 -0400
 ---
 
-# About dscript
+# What is dscript
