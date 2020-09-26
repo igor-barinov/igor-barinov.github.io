@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "About TrujBot"
+title:  "GroupMe Bot"
 date:   2019-10-27 14:43:59 -0400
 ---
 
-# What is TrujBot
+# GroupMe Bot
