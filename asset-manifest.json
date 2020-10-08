@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/igor-barinov.github.io/static/css/main.fb40d10e.chunk.css",
+    "main.js": "/igor-barinov.github.io/static/js/main.a63fea64.chunk.js",
+    "main.js.map": "/igor-barinov.github.io/static/js/main.a63fea64.chunk.js.map",
+    "runtime-main.js": "/igor-barinov.github.io/static/js/runtime-main.883ec37c.js",
+    "runtime-main.js.map": "/igor-barinov.github.io/static/js/runtime-main.883ec37c.js.map",
+    "static/js/2.f5caccc8.chunk.js": "/igor-barinov.github.io/static/js/2.f5caccc8.chunk.js",
+    "static/js/2.f5caccc8.chunk.js.map": "/igor-barinov.github.io/static/js/2.f5caccc8.chunk.js.map",
+    "index.html": "/igor-barinov.github.io/index.html",
+    "precache-manifest.9838ebe0a1c1e077b0cdf6d9b698a671.js": "/igor-barinov.github.io/precache-manifest.9838ebe0a1c1e077b0cdf6d9b698a671.js",
+    "service-worker.js": "/igor-barinov.github.io/service-worker.js",
+    "static/css/main.fb40d10e.chunk.css.map": "/igor-barinov.github.io/static/css/main.fb40d10e.chunk.css.map",
+    "static/js/2.f5caccc8.chunk.js.LICENSE.txt": "/igor-barinov.github.io/static/js/2.f5caccc8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.883ec37c.js",
+    "static/js/2.f5caccc8.chunk.js",
+    "static/css/main.fb40d10e.chunk.css",
+    "static/js/main.a63fea64.chunk.js"
+  ]
+}
