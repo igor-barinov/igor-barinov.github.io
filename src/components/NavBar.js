@@ -21,18 +21,11 @@ class NavBar extends Component {
     render() {
         const showLinks = this.state.showLinks;
 
-        if (showLinks) {
-            return <ul className="NavBar">
-                <li><p>Igor Barinov</p></li>
-                <li><NavBarToggle onClick={this.onNavBarToggleClick}></NavBarToggle></li>
-                <NavBarLinks></NavBarLinks>
-            </ul>
-        } else {
-            return <ul className="NavBar">
-                <li><p>Igor Barinov</p></li>
-                <li><NavBarToggle onClick = {this.onNavBarToggleClick}></NavBarToggle></li>
-            </ul>
-        }
+        return <ul className="NavBar">
+            <li><p>Igor Barinov</p></li>
+            <li><NavBarToggle onClick={this.onNavBarToggleClick}></NavBarToggle></li>
+            <NavBarLinks hidden={showLinks} />
+        </ul>
     }
 }
 
