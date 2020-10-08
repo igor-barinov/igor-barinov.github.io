@@ -1,0 +1,15 @@
+.NavBarToggle {
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 10px;
+    transform: none;
+    transition: transform 0.5s
+}
+
+.NavBarToggle:hover {
+    background-color: lightgray ;
+    color: black;
+    transform: rotate(90deg);
+}

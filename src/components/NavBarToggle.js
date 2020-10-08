@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavBar from './NavBar';
+import '../styles/NavBarToggle.css'
 
 class NavBarToggle extends Component {
     constructor(props) {
@@ -8,13 +8,14 @@ class NavBarToggle extends Component {
     }
 
     onClick = () => {
-        this.setState(state => ({
-            isToggled: !state.isToggled
-        }))
+        this.props.onClick();
+        this.setState({
+            isToggled: !this.state.isToggled
+        });
     }
 
     render() {
-        return <button onClick={this.onClick}>
+        return <button className="NavBarToggle" onClick={this.onClick}>
             {this.state.isToggled ? 'ON' : 'OFF'}
         </button>
     }
