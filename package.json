@@ -1,5 +1,5 @@
 {
-  "homepage": "http://igor-barinov.github.io/personal-site",
+  "homepage": "http://igor-barinov.github.io/",
   "name": "personal",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
     "eject": "react-scripts eject",
     "serve": "serve -s build -l 3000",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
