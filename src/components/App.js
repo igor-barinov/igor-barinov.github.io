@@ -13,6 +13,9 @@ class App extends Component {
     return <div className="App">
       <NavBar/>
       <div>
+        <h1>
+          ABOUT
+        </h1>
         <p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium lacus et sapien maximus semper. Curabitur nec massa dignissim, porttitor libero at, consectetur justo. Cras quis nisl non lacus facilisis dapibus. Mauris tristique nibh nec gravida sollicitudin. Pellentesque a est libero. Vivamus commodo tincidunt facilisis. Donec suscipit sem neque, vel hendrerit sapien iaculis ut.

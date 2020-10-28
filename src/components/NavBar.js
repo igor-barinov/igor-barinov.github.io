@@ -1,30 +1,23 @@
 import React, { Component } from 'react';
 import '../styles/NavBar.css'
 
-import NavBarToggle from './NavBarToggle';
-import NavBarLinks from './NavBarLinks';
+import NavBarTitle from './NavBarTitle';
+import NavBarLink from './NavBarLink';
 
 class NavBar extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            showLinks: false
+            activeLinkIndex: 0
         };
     }
 
-    onNavBarToggleClick = () => {
-        this.setState({
-            showLinks: !this.state.showLinks
-        });
-    }
-
     render() {
-        const showLinks = this.state.showLinks;
-
         return <ul className="NavBar">
-            <li><p>Igor Barinov</p></li>
-            <li><NavBarToggle onClick={this.onNavBarToggleClick}></NavBarToggle></li>
-            <NavBarLinks hidden={showLinks} />
+            <NavBarTitle text="Igor Barinov" />
+            <NavBarLink isActive = {true} link="#" text="About" />
+            <NavBarLink isActive = {false} link="#" text="Portfolio" />
+            <NavBarLink isActive = {false} link="#" text="Resume" />
         </ul>
     }
 }
