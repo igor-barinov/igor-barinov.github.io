@@ -2,6 +2,10 @@
     float: left;
 }
 
+.ActiveNavBarLink {
+    float: left;
+}
+
 .NavBarLink a {
     display: block;
     color: #F8F7FF;
@@ -12,12 +16,18 @@
     transition: padding 0.2s;
 }
 
-.NavBarLink a:hover:not(.active) {
-    background-color: #57C6EA;
-    padding: 15px 50px 10px 10px;
-}
-
-.NavBarLink a.active{
+.ActiveNavBarLink a {
+    display: block;
     color: #1C1018;
     background-color: #F8F7FF;
+    text-align: center;
+    padding: 15px 30px 10px 30px;
+    text-decoration: none;
+    font-size: x-large;
+    transition: padding 0.2s;
+}
+
+.NavBarLink a:hover {
+    background-color: #57C6EA;
+    padding: 15px 50px 10px 10px;
 }
