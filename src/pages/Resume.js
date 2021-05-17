@@ -12,7 +12,7 @@ class Resume extends Component {
 
   render() {
     return (
-      <div className="Resume">
+      <div className="Page">
         <NavBar at="/resume"/>
         <div>
           <h1>

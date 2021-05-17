@@ -1,9 +1,10 @@
-.App {
+.Page {
   background-color: #F8F7FF;
   font-size: xx-large;
 }
 
-.App div {
+.Page div {
   margin-left: 25%;
   margin-right: 25%;
+  padding-bottom: 5%;
 }

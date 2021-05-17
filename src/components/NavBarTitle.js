@@ -10,7 +10,7 @@ class NavBarTitle extends Component {
     }
 
     render() {
-        return <li class="NavBarTitle">
+        return <li className="NavBarTitle">
             {this.props.text}
         </li>
     }

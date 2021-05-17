@@ -10,7 +10,7 @@ class NavBarLink extends Component {
 
     render() {
         const linkCls = (this.props.isActive) ? "ActiveNavBarLink" : "NavBarLink"
-        return <li class={linkCls}>
+        return <li className={linkCls}>
             <Link to={this.props.link}>{this.props.text}</Link>
         </li>
     }
