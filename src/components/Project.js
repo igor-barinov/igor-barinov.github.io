@@ -20,12 +20,12 @@ class Project extends Component {
     }
 
     render() {
+        const status = (this.props.wip) ? "In Progress" : "Discontinued";
         return (
             <div className="Project">
-                <button onClick = {this.toggleDescription}>{this.props.title}</button>
-                <ProjectDescription isShown={this.showDescription} languages={this.props.languages} description={this.props.description} />
-                <br></br>
-                <br></br>
+                <button onClick={this.toggleDescription}>{this.props.title + " (" + status + ")"}{
+                    this.state.showDescription && <ProjectDescription languages={this.props.languages} goal={this.props.goal} features={this.props.features} future={this.props.future} />
+                }</button>
             </div>
         );
     }

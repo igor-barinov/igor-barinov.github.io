@@ -9,12 +9,15 @@ class ProjectDescription extends Component {
     }
 
     render() {
-        const cls = (this.props.isShown) ? "ProjectDescription" : "ProjectBlank";
-
         return (
-            <div className = {cls}>
+            <div className = "ProjectDescription">
                 <h5>{"Written in: " + this.props.languages}</h5>
-                <p>{this.props.description}</p>
+                <h5>Goal</h5>
+                <p>{this.props.goal}</p>
+                <h5>Implemented Features</h5>
+                <p>{this.props.features}</p>
+                <h5>Future Work</h5>
+                <p>{this.props.future}</p>
             </div>
         );
     }

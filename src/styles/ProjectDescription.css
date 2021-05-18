@@ -1,7 +1,9 @@
 .ProjectDescription {
-    display: block;
+    padding: 10px;
+    text-align: left;
+    font-weight: normal;
 }
 
-.ProjectBlank {
-    display: none;
+.ProjectDescription p {
+    font-size: x-large;
 }

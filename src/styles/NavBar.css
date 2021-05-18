@@ -3,5 +3,5 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #005BC7;
+    background-image: linear-gradient(to right, #005BC7, #00b7ff, #00ffc3);
 }
